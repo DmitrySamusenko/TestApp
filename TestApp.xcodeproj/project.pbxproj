@@ -15,6 +15,7 @@
 		7702514B27A30BBF00A82242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7702514927A30BBF00A82242 /* LaunchScreen.storyboard */; };
 		77228CB827A55C000060A9E1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77228CB727A55C000060A9E1 /* SettingsViewController.swift */; };
 		77228CBA27A55FAE0060A9E1 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77228CB927A55FAE0060A9E1 /* GreenViewController.swift */; };
+		77FA897C27A71D4800FD9705 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FA897B27A71D4800FD9705 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		7702514C27A30BBF00A82242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77228CB727A55C000060A9E1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		77228CB927A55FAE0060A9E1 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		77FA897B27A71D4800FD9705 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				7702514027A30BBD00A82242 /* SceneDelegate.swift */,
 				7702514227A30BBD00A82242 /* ViewController.swift */,
 				7702514427A30BBD00A82242 /* Main.storyboard */,
+				77FA897B27A71D4800FD9705 /* NewViewController.swift */,
 				7702514727A30BBF00A82242 /* Assets.xcassets */,
 				7702514927A30BBF00A82242 /* LaunchScreen.storyboard */,
 				7702514C27A30BBF00A82242 /* Info.plist */,
@@ -147,6 +150,7 @@
 				7702514327A30BBD00A82242 /* ViewController.swift in Sources */,
 				7702513F27A30BBD00A82242 /* AppDelegate.swift in Sources */,
 				7702514127A30BBD00A82242 /* SceneDelegate.swift in Sources */,
+				77FA897C27A71D4800FD9705 /* NewViewController.swift in Sources */,
 				77228CB827A55C000060A9E1 /* SettingsViewController.swift in Sources */,
 				77228CBA27A55FAE0060A9E1 /* GreenViewController.swift in Sources */,
 			);
