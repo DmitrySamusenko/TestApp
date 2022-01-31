@@ -15,12 +15,13 @@ class YellowMainViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func goRed(_ sender: Any) {
-        performSegue(withIdentifier: "red", sender: nil)// Must easy way with Segue Identification
+    
+    
+    @IBAction func goRedId(_ sender: Any) {
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let newViewController = storyBoard.instantiateViewController(withIdentifier: "RedMainViewController") as! RedMainViewController
+        self.present(newViewController, animated: true, completion: nil)
     }
     
-    @IBAction func back(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-    }
     
 }
