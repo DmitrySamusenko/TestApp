@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TestApp
 //
-//  Created by Ольга on 27.01.2022.
+//  Created by Dmitry on 27.01.2022.
 //
 
 import UIKit
@@ -31,6 +31,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
-
+    func checkString(_ string:String) -> String{
+        return "\(string) is string!"
+    }
 }
 
